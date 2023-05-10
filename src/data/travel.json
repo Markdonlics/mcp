@@ -1,0 +1,98 @@
+[
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-878385/original/98111fe2-1a41-47b9-9911-96772ecd4037.jpeg?im_w=720",
+      "title": "Private room in Esquilino",
+      "subtitles": [
+        "Cosy single room | 2 | Rome City Center",
+        "1 double bed",
+        "Oct 1 – 6"
+      ],
+      "price": { "currency": "$", "value": 51, "period": "night" },
+      "rating": 4,
+      "link": "https://www.airbnb.com/rooms/878385"
+    },
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-871506811576025683/original/709ee006-3b70-493a-a3b7-bf5c339c0364.jpeg?im_w=720",
+      "title": "Apartment in Rome",
+      "subtitles": ["Volupta's house  Rome Termini 2", "2 beds", "Jun 18 – 23"],
+      "price": { "currency": "$", "value": 114, "period": "night" },
+      "rating": 0,
+      "link": "https://www.airbnb.com/rooms/871506811576025683"
+    },
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/c51cf902-e79a-42bc-a5cf-f09e896a97d8.jpg?im_w=720",
+      "title": "Private room in Don Bosco",
+      "subtitles": [
+        "Studio apartment near Pigneto",
+        "1 double bed",
+        "Jun 27 – Jul 2"
+      ],
+      "price": { "currency": "$", "value": 36, "period": "night" },
+      "rating": 4,
+      "link": "https://www.airbnb.com/rooms/51481591"
+    },
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/012cde53-9058-4b7c-a385-f6002ef69d34.jpg?im_w=720",
+      "title": "Apartment in Trastevere",
+      "subtitles": [
+        "Exotic House in Historic Trastevere Area",
+        "1 double bed",
+        "Jul 26 – 31"
+      ],
+      "price": { "currency": "$", "value": 154, "period": "night" },
+      "rating": 4,
+      "link": "https://www.airbnb.com/rooms/plus/24010612"
+    },
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/e0153888-94b8-47e7-ad47-d8820029882c.jpg?im_w=720",
+      "title": "Apartment in Monti",
+      "subtitles": ["Just Behind Coliseum 3", "2 beds", "Dec 10 – 17"],
+      "price": { "currency": "$", "value": 81, "period": "night" },
+      "rating": 4,
+      "link": "https://www.airbnb.com/rooms/21580691"
+    },
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/41452339/df04301b_original.jpg?im_w=720",
+      "title": "Apartment in Monti",
+      "subtitles": [
+        "A stone's throw from the Colosseum",
+        "2 beds",
+        "Jul 10 – 15"
+      ],
+      "price": { "currency": "$", "value": 144, "period": "night" },
+      "rating": 4,
+      "link": "https://www.airbnb.com/rooms/3260174"
+    },
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-795535608287044220/original/8be0f6c1-ae24-4774-abf8-59070a50b950.jpeg?im_w=720",
+      "title": "Private room in Trastevere",
+      "subtitles": ["small room\nvia staircase", "1 bed", "Jul 14 – 19"],
+      "price": { "currency": "$", "value": 84, "period": "night" },
+      "rating": 2,
+      "link": "https://www.airbnb.com/rooms/795535608287044220"
+    },
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/20227796-417a-435b-8ab6-435252d53662.jpg?im_w=720",
+      "title": "Home in Rome",
+      "subtitles": [
+        "Al Civico 7 - Historic residence",
+        "1 queen bed",
+        "Nov 6 – 11"
+      ],
+      "price": { "currency": "$", "value": 141, "period": "night" },
+      "rating": 4,
+      "link": "https://www.airbnb.com/rooms/23516427"
+    },
+    {
+      "thumbnail": "https://a0.muscache.com/im/pictures/miso/Hosting-874514804509309853/original/c63c509b-6c2a-4d0a-990c-369a81982a4a.jpeg?im_w=720",
+      "title": "Apartment in Flaminio",
+      "subtitles": [
+        "R20 - boutique apartment Rome",
+        "2 beds",
+        "May 28 – Jun 2"
+      ],
+      "price": { "currency": "$", "value": 152, "period": "night" },
+      "rating": 0,
+      "link": "https://www.airbnb.com/rooms/874514804509309853"
+    }
+  ]
