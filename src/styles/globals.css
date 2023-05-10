@@ -1,27 +1,18 @@
+
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+}
+.text {
+  color: aliceblue;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .btn-primary {
+    @apply px-5 py-3 text-sm sm:text-base rounded-lg shadow-lg uppercase tracking-wider font-semibold text-white inline-block bg-indigo-500 hover:bg-indigo-400 transform transition hover:-translate-y-0.5 focus:outline-none focus:ring focus:ring-offset-2 focus:bg-indigo-500 active:bg-indigo-700;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
