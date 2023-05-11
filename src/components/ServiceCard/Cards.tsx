@@ -10,19 +10,18 @@ export default function ServiceCard() {
     rating: number;
     link: string;
   };
-  type data = datas[];
   return (
     <div className="bg-gray-100 w-full py-10">
       <div className="max-w-lg mx-auto sm:max-w-xl lg:max-w-4xl 2xl:max-w-6xl">
         <div className="mt-6 grid gap-6 lg:grid-cols-2 2xl:grid-cols-3">
-          {travel.map((items: datas) => {
+          {travel?.map((items: datas) => {
             //const {thumbnail: items.thumbnail, title, subtitles, price, rating, link}};
-            const thumbnail = items.thumbnail,
-              title = items.title,
-              subtitles = items.subtitles,
-              price = items.price,
-              rating = items.rating,
-              link = items.link;
+            const thumbnail = items?.thumbnail,
+              title = items?.title,
+              subtitles = items?.subtitles,
+              price = items?.price,
+              rating = items?.rating,
+              link = items?.link;
             return (
               <div
                 key={title}
