@@ -6,7 +6,7 @@ import { AiOutlineProfile } from "react-icons/ai";
 import { MdOutlineWeb } from "react-icons/md";
 import { MdOutlineMedicalServices } from "react-icons/md";
 import { RxComponent1 } from "react-icons/rx";
-import { TbMessageDots } from "react-icons/Tb";
+import { TbMessageDots } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 
 const Nav = () => {
