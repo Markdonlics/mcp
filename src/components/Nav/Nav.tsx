@@ -5,7 +5,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineProfile } from "react-icons/ai";
 import { MdOutlineWeb } from "react-icons/md";
 import { MdOutlineMedicalServices } from "react-icons/md";
-import { TbComponents } from "react-icons/Tb";
+import { RxComponent1 } from "react-icons/rx";
 import { TbMessageDots } from "react-icons/Tb";
 import { BiUser } from "react-icons/bi";
 
@@ -28,7 +28,7 @@ const Nav = () => {
       id: 3,
       title: "components",
       path: "/",
-      icon: <TbComponents size={22} title="components" />,
+      icon: <RxComponent1 size={22} title="components" />,
     },
     {
       id: 4,
