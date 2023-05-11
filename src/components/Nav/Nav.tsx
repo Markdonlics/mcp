@@ -63,7 +63,7 @@ const Nav = () => {
   };
   return (
     <>
-      <div className="z-40 sticky top-0 bg-indigo-800 flex-wrap flex items-center lg:justify-center">
+      <div className="z-40 fixed w-full top-0 bg-indigo-800 flex-wrap flex items-center lg:justify-center">
         <div className="flex flex-1 lg:flex-none gap-24 justify-between items-center text-indigo-950 uppercase font-semibold p-6">
           <div className="flex items-center flex-shrink-0 text-gray-200 mr-6 active:text-indigo-200">
             <svg
