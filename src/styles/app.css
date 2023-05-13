@@ -13,6 +13,9 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply px-5 py-3 text-sm sm:text-base rounded-lg shadow-lg uppercase tracking-wider font-semibold text-white inline-block bg-indigo-500 hover:bg-indigo-400 transform transition hover:-translate-y-0.5 focus:outline-none focus:ring focus:ring-offset-2 focus:bg-indigo-500 active:bg-indigo-700;
+    @apply text-sm sm:text-base capitalize tracking-wider font-semibold text-blue-500 inline-block hover:text-orange-600 transform transition hover:-translate-y-0.5 hover:underline hover:underline-offset-8 active:text-blue-500;
+  }
+  .link-light {
+    @apply text-sm sm:text-base capitalize tracking-wider font-semibold text-blue-500 inline-block hover:text-orange-600 transform transition hover:-translate-y-0.5 hover:underline hover:underline-offset-8 active:text-blue-500;
   }
 }

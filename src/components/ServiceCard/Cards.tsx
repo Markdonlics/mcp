@@ -69,7 +69,7 @@ export default function ServiceCard() {
                     </p>
                     <Link
                       href={link}
-                      className="text-indigo-500 font-semibold text-sm hover:text-indigo-800"
+                      className="link-light text-sm py-2"
                     >
                       Explore 76 properties
                     </Link>

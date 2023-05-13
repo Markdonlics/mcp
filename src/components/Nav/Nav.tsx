@@ -21,37 +21,37 @@ const Nav = () => {
     {
       id: 2,
       title: "pages",
-      path: "/",
+      path: "/pages",
       icon: <MdOutlineWeb size={22} title="pages" />,
     },
     {
       id: 3,
       title: "components",
-      path: "/",
+      path: "/components",
       icon: <RxComponent1 size={22} title="components" />,
     },
     {
       id: 4,
       title: "services",
-      path: "/",
+      path: "/services",
       icon: <MdOutlineMedicalServices size={22} title="services" />,
     },
     {
       id: 5,
       title: "profile",
-      path: "/",
+      path: "/profile/",
       icon: <BiUser size={22} title="profile" />,
     },
     {
       id: 6,
       title: "about",
-      path: "/",
+      path: "/about",
       icon: <AiOutlineProfile size={22} title="about" />,
     },
     {
       id: 7,
       title: "contact",
-      path: "/",
+      path: "/contact",
       icon: <TbMessageDots size={22} title="contact" />,
     },
   ];
@@ -63,11 +63,11 @@ const Nav = () => {
   };
   return (
     <>
-      <div className="z-40 fixed w-full top-0 bg-indigo-800 flex-wrap flex items-center lg:justify-center">
-        <div className="flex flex-1 lg:flex-none gap-24 justify-between items-center text-indigo-950 uppercase font-semibold p-6">
-          <div className="flex items-center flex-shrink-0 text-gray-200 mr-6 active:text-indigo-200">
+      <div className="z-40 fixed w-full top-0 bg-neutral-900 flex-wrap flex items-center lg:justify-center">
+        <div className="flex flex-1 lg:flex-none gap-24 xl:gap-48 2xl:gap-56 justify-between items-center text-neutral-950 capitalize font-semibold p-6">
+          <div className="flex items-center flex-shrink-0 text-gray-200 mr-6 active:text-neutral-200">
             <svg
-              className="fill-current h-8 w-8 mr-2"
+              className="fill-current h-8 w-8 mr-2 text-orange-600"
               width="54"
               height="54"
               viewBox="0 0 54 54"
@@ -76,13 +76,13 @@ const Nav = () => {
               <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
             </svg>
             <span className="font-bold uppercase text-xl tracking-tighter">
-              mcp <span className="capitalize">website</span>
+              mcp <span className="capitalize text-orange-600">website</span>
             </span>
           </div>
-          <div className="text-indigo-200 block lg:hidden">
+          <div className="text-neutral-200 block lg:hidden">
             <button
               onClick={() => setOpen(!open)}
-              className="px-3 py-2 rounded ring-1 ring-indigo-200 bg-transparent hover:bg-indigo-500 hover:text-gray-200 active:bg-indigo-800"
+              className="px-3 py-2 rounded ring-1 ring-gray-400 bg-transparent hover:bg-gray-200 hover:text-neutral-900 active:bg-neutral-800"
             >
               <AiOutlineMenu className="fill-current h-3 w-3" title="menu" />
             </button>
@@ -97,7 +97,7 @@ const Nav = () => {
                   <Link
                     key={id}
                     href={path}
-                    className="lg:mt-0 mt-4 block mr-5 hover:text-indigo-300 lg:inline-block active:text-indigo-500"
+                    className="lg:mt-0 mt-4 block mr-5 hover:text-orange-600 hover:underline hover:underline-offset-8 lg:inline-block active:text-gray-200"
                   >
                     {title}
                   </Link>
@@ -110,11 +110,11 @@ const Nav = () => {
       <div className={`lg:hidden`}>
         <div
           className={`${
-            open ? "w-2/4 sm:w-2/5" : "w-0 sm:w-0"
-          } duration-500 fixed top-0 left-0 z-10 min-h-screen text-gray-200 text-sm capitalize bg-indigo-800`}
+            open ? "w-2/4 sm:w-2/6" : "w-0 sm:w-0"
+          } duration-500 fixed top-0 left-0 z-10 min-h-screen text-gray-200 text-sm capitalize bg-neutral-800`}
         >
           <div className="overflow-y-auto relative mx-4 max-h-screen">
-            <div className="pt-20"></div>
+            <div className="pt-24"></div>
             <div className="flex flex-col gap-4 relative">
               {links?.map((items: data, i: number) => {
                 const id = items?.id,
@@ -126,7 +126,7 @@ const Nav = () => {
                     key={i}
                     href={path}
                     onClick={() => setOpen(false)}
-                    className={`flex text-sm items-center gap-4 p-2 text-gray-200 font-semibold hover:text-indigo-200 hover:bg-indigo-500 active:text-indigo-500 rounded-md`}
+                    className={`flex text-sm items-center gap-4 p-2 text-gray-200 font-semibold hover:text-neutral-200 hover:bg-orange-600 active:text-neutral-500 rounded-md`}
                   >
                     <div>{icon}</div>
                     <h2

@@ -2,22 +2,21 @@ import Link from "next/link";
 
 export default function HeroImage() {
   return (
-    <div className="my-20 py-5 w-full bg-gray-100">
+    <div className="lg:py-5 w-full">
       <div className="grid lg:grid-cols-2 2xl:grid-cols-5">
-        <div className="px-8 py-12 lg:px-12 lg:py-24 mx-auto max-w-md lg:max-w-full sm:max-w-xl bg-gray-100 xl:mr-0 2xl:col-span-2">
-          <div className="xl:max-w-xl xl:bg-gray-100">
-            <img className="h-10 mx-auto" src="vercel.svg" alt="website logo" />
+        <div className="px-8 lg:px-12 lg:py-24 mx-auto max-w-md lg:max-w-full sm:max-w-xl xl:mr-0 2xl:col-span-2">
+          <div className="xl:max-w-xl">
             <img
               className="mt-6 sm:mt-8 sm:w-full sm:object-cover object-center lg:hidden"
               src="/images/blog/manager.jpg"
               alt="Delivery man taking stock"
             />
-            <h1 className="mt-6 sm:mt-8 text-2xl sm:text-3xl text-gray-900 font-bold lg:text-2xl xl:text-4xl">
+            <h1 className="mt-6 sm:mt-8 text-2xl sm:text-3xl text-orange-500 drop-shadow-sm font-bold lg:text-2xl xl:text-4xl">
               You can work from anywhere.
               <br className="inline-block" />
-              <span className="text-indigo-500">Take advantage of it.</span>
+              <span className="">Take advantage of it.</span>
             </h1>
-            <p className="mt-2 sm:mt-4text-gray-500 sm:text-lg lg:text-l xl:text-xl">
+            <p className="mt-2 sm:mt-4 text-neutral-500 sm:text-lg lg:text-l xl:text-xl">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Accusantium atque soluta corporis in placeat. Molestiae dolorem
               distinctio autem deserunt itaque cupiditate sed qui maiores, quod
@@ -29,21 +28,16 @@ export default function HeroImage() {
             </p>
             <div className="mt-4 sm:mt-6 flex justify-start gap-3">
               <div>
-                <Link className="btn-primary" href="#">
-                  Booking
-                </Link>
-              </div>
-              <div>
-                <Link className="btn-primary" href="#">
-                  Next
+                <Link className="link-light" href="#">
+                  Book project &#8677;
                 </Link>
               </div>
             </div>
           </div>
         </div>
-        <div className="hidden relative lg:block 2xl:col-span-3 2xl:mx-10">
+        <div className="hidden relative mx-auto lg:block 2xl:col-span-3 2xl:mx-10 xl:ml-0">
           <img
-            className="absolute object-cover object-right h-full w-full inset-0"
+            className="absolute object-cover object-right h-full w-11/12 inset-0"
             src="/images/blog/manager.jpg"
             alt="Delivery man taking stock"
           />
