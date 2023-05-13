@@ -1,5 +1,6 @@
 import HeroImage from "./HeroImage";
 import Nav from "./Nav";
 import ServiceCard from "./ServiceCard";
+import Footer from "./Footer";
 
-export { HeroImage, ServiceCard, Nav };
+export {Nav, Footer, HeroImage, ServiceCard,  };

@@ -1,9 +1,11 @@
+import { HeroImage, ServiceCard } from '@/components'
 import React from 'react'
 
 const pages = () => {
   return (
     <div>
-      pages page
+    <HeroImage />
+    <ServiceCard />
     </div>
   )
 }
