@@ -42,7 +42,7 @@ const TextField = (props: inputProps) => {
     inputSize = "py-1 px-2 text-sm";
     labelSize = "py-1 px-0 text-sm";
   } else if (inputSize === "large") {
-    inputSize = "py-4 px-4 text-xl";
+    inputSize = "py-3 px-4 text-xl";
     labelSize = "py-2 px-0 text-sm";
   } else {
     inputSize = "";
@@ -66,8 +66,8 @@ const TextField = (props: inputProps) => {
         step={step}
         size={size ? size : 10}
         className={`${fullWidth ? "w-full" : ""} ${
-          inputSize && inputSize
-        } px-3 py-2 rounded-lg overflow-visible focus:outline-sky-500 border-2 border-neutral-200 max-w-full`}
+          inputSize ? inputSize : "px-3 py-2"
+        } rounded-lg overflow-visible focus:outline-sky-500 border-2 border-neutral-200 max-w-full`}
       />
     </div>
   );
