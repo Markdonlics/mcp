@@ -1,10 +1,11 @@
+import { Contact } from '@/components'
 import React from 'react'
 
 const contact = () => {
   return (
-    <div>
-      contact page
-    </div>
+    <>
+      <Contact />
+    </>
   )
 }
 
