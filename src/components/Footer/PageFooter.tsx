@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-neutral-900 text-gray-400">
+    <div className="bg-neutral-900 text-gray-400 text-sm">
       <div className="flex flex-col items-start justify-start sm:items-center sm:max-w-6xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 sm:gap-1 my-10">
           <div className="flex flex-col items-start gap-2 px-4 justify-start">
@@ -43,72 +43,72 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-start gap-3 px-4 justify-start">
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Home
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Components
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Pages
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Profile
               </Link>
             </div>
           </div>
           <div className="flex flex-col items-start gap-3 px-4 justify-start">
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 About
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Contact Us
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Terms & Condition
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Privacy Policy
               </Link>
             </div>
           </div>
           <div className="flex flex-col items-start gap-3 px-4 justify-start">
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Services
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Help Links
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Tutorials
               </Link>
             </div>
             <div>
-              <Link className="link-light text-gray-400" href="#">
+              <Link className="link-light text-sm font-normal text-gray-400" href="#">
                 Utilities
               </Link>
             </div>
           </div>
         </div>
-        <div className="py-2 mx-auto text-sm text-gray-500">
+        <div className="py-2 mx-auto text-sm font-normal text-gray-500">
           Website developed by{" "}
           <Link
             className="link-light text-gray-400"
