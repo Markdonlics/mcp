@@ -6,8 +6,10 @@ import "@/styles/app.css";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Nav />
-      <div className="my-20"></div>
+      { // <Nav /> 
+      }
+      { // <div className="my-20"></div>
+      }
       <Component {...pageProps} />
       <Footer />
     </>

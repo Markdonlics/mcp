@@ -19,7 +19,7 @@ const Contact = () => {
       </div>
       <div className="w-full bg-gray-100 text-neutral-900 py-10">
         <div className="mx-auto w-full grid grid-cols-1 lg:grid-cols-3 lg:max-w-4xl bg-white py-10 px-5">
-          <div className="flex flex-wrap justify-start items-center lg:flex-col lg:items-start lg:justify-center gap-10 px-5 mb-20 mt-5 lg:col-span-1 lg:mb-0 lg:mt-0">
+          <div className="flex flex-wrap justify-start mx-auto items-center lg:flex-col lg:items-start lg:justify-center gap-10 px-5 mb-20 mt-5 lg:col-span-1 lg:mb-0 lg:mt-0">
             <div className="flex gap-4 items-center justify-center">
               <p className="text-3xl text-sky-500">
                 <CiLocationOn />
