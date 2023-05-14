@@ -67,7 +67,7 @@ const TextField = (props: inputProps) => {
         size={size ? size : 10}
         className={`${fullWidth ? "w-full" : ""} ${
           inputSize ? inputSize : "px-3 py-2"
-        } rounded-lg overflow-visible focus:outline-sky-500 border-2 border-neutral-200 max-w-full`}
+        } rounded-lg overflow-hidden focus:outline-sky-500 border-2 border-neutral-200 max-w-full`}
       />
     </div>
   );

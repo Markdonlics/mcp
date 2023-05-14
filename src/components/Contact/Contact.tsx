@@ -39,40 +39,40 @@ const Contact = () => {
               <p className="text-gray-500">info@mcpwebsite.com</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:col-span-2 lg:max-w-xl mx-auto px-2">
+          <div className="w-full sm:w-[400px] grid grid-cols-1 lg:col-span-2 lg:max-w-xl mx-auto px-2">
             <div className="mx-auto capitalize font-bold text-lg py-1 px-7 mb-6 underline underline-offset-8 border-neutral-300 text-gray-400">
               Request for quote
             </div>
-            <div className="mx-auto p-2">
+            <div className="p-2">
               <TextField
                 label="Full name"
                 placeholder="input your full name..."
                 inputSize="small"
-                size={50}
+                fullWidth
               />
             </div>
-            <div className="mx-auto p-2">
+            <div className="p-2">
               <TextField
                 label="email"
                 placeholder="Email address"
                 type="email"
                 inputSize="small"
-                size={50}
+                fullWidth
               />
             </div>
-            <div className="mx-auto p-2">
+            <div className="p-2">
               <TextField
                 label="Phone no"
                 placeholder="phone number"
                 inputSize="small"
-                size={50}
+                fullWidth
               />
             </div>
-            <div className="mx-auto p-2">
+            <div className=" p-2">
               <p className="capitalize py-1">message</p>
               <textarea
-                className=" px-3 py-2 rounded-lg overflow-visible focus:outline-sky-500 border-2 border-neutral-200 max-w-full"
-                cols={45}
+                className="w-full px-3 py-2 rounded-lg overflow-visible focus:outline-sky-500 border-2 border-neutral-200 max-w-full"
+                
                 rows={5}
               />
             </div>
