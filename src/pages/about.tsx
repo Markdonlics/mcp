@@ -217,6 +217,108 @@ const about = () => {
           </div>
         </div>
       </div>
+      <div className="w-full py-20 px-5 sm:px-5">
+        <div className="sm:max-w-2xl mx-auto sm:relative grid gap-4">
+          <div className="flex flex-col gap-2 justify-center items-center sm:items-start text-center sm:text-start sm:pb-[30rem]">
+            <h2 className="text-3xl font-bold">
+              Real Stories from <br />
+              Real Customers
+            </h2>
+            <p>Get inspired by these stories</p>
+          </div>
+          <div className="sm:absolute sm:top-[0rem] sm:left-1/2 sm:mx-2 shadow-lg sm:w-[350px] p-8">
+            <h2 className="font-bold">JPNL</h2>
+            <p className="pb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              dignissimos porro, animi nam ex consequatur corporis? Nobis, ipsam
+              rem similique expedita cum modi corporis eligendi.
+            </p>
+            <p className="font-semibold">Jane coper</p>
+            <p className="text-gray-400 text-sm">CEO, JPNL</p>
+          </div>
+          <div className="sm:absolute sm:top-[8rem] sm:right-1/2 sm:mx-2 shadow-lg sm:w-[250px] p-8">
+            <h2 className="font-bold">JPNL</h2>
+            <p className="pb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              dignissimos porro, animi nam ex consequatur corporis? Nobis, ipsam
+              rem similique expedita cum modi corporis eligendi.
+            </p>
+            <p className="font-semibold">Jane coper</p>
+            <p className="text-gray-400 text-sm">CEO, JPNL</p>
+          </div>
+          <div className="sm:absolute sm:top-[17rem] sm:left-1/2 sm:mx-2 shadow-lg sm:w-[350px] p-8">
+            <h2 className="font-bold">JPNL</h2>
+            <p className="pb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              dignissimos porro, animi nam ex consequatur corporis? Nobis, ipsam
+              rem similique expedita cum modi corporis eligendi.
+            </p>
+            <p className="font-semibold">Jane coper</p>
+            <p className="text-gray-400 text-sm">CEO, JPNL</p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full py-10 sm:py-20 px-5 sm:px-5">
+        <div className="sm:max-w-4xl mx-auto">
+          <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-6">
+            <div className="sm:max-w-sm">
+              <h2 className="text-2xl text-center sm:text-start font-bold sm:text-3xl pb-4">
+                We serve over 100 websites globally
+              </h2>
+              <p className="text-sm lg:text-base text-center sm:text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                placeat enim facilis fugit minima et?
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 lg:grid-cols-3 lg:items-start gap-10 p-6 items-center justify-center mx-auto">
+              <img
+                className="max-w-[100px]"
+                src="images/logo/cpanel.png"
+                alt="cpanel logo"
+              />
+              <img
+                className="max-w-[100px]"
+                src="images/logo/vercel.png"
+                alt="vercel logo"
+              />
+              <img
+                className="max-w-[100px]"
+                src="images/logo/namecheap.png"
+                alt="namecheap logo"
+              />
+              <img
+                className="max-w-[100px]"
+                src="images/logo/imunity.png"
+                alt="imunify logo"
+              />
+              <img
+                className="max-w-[100px]"
+                src="images/logo/whogohost.png"
+                alt="whogohost logo"
+              />
+              <img
+                className="max-w-[100px]"
+                src="images/logo/bluehost.png"
+                alt="bluehost logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-full py-20 px-5 bg-gray-100 sm:px-5">
+        <div className="flex gap-6 flex-col items-center justify-center sm:max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl text-center font-bold">
+            We're here to make your website awesome
+          </h2>
+          <Link
+            className="link-light px-6 py-2 rounded-full bg-orange-400 hover:bg-transparent text-neutral-100 drop-shadow-lg"
+            href="#"
+          >
+            Get in touch with us
+          </Link>
+        </div>
+      </div>
     </>
   );
 };
