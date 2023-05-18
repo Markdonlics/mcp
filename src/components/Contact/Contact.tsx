@@ -68,11 +68,10 @@ const Contact = () => {
                 fullWidth
               />
             </div>
-            <div className=" p-2">
+            <div className="p-2">
               <p className="capitalize py-1">message</p>
               <textarea
                 className="w-full px-3 py-2 rounded-lg overflow-visible focus:outline-sky-500 border-2 border-neutral-200 max-w-full"
-                
                 rows={5}
               />
             </div>

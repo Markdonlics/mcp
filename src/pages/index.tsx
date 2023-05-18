@@ -1,5 +1,7 @@
+import { Subscription } from "@/components";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import { GrCheckmark } from "react-icons/gr";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,6 +13,9 @@ export default function Home() {
           <Link className="link-light text-white text-lg drop-shadow-lg" href="/about"></Link>
           <Link className="link-light text-white drop-shadow-lg text-lg" href="/contact">visit other pages</Link>
       </div>
+      {/* <div className="">
+        <div>hgjgh</div>
+      </div> */}
     </>
   );
 }

@@ -3,6 +3,7 @@ import { AiOutlineCloudSync } from "react-icons/ai";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { FaExpeditedssl } from "react-icons/fa";
 import { RxCountdownTimer } from "react-icons/rx";
+import { Subscription } from "@/components";
 
 const about = () => {
   return (
@@ -173,6 +174,46 @@ const about = () => {
               rerum quos omnis unde officia sed consectetur iste debitis
               necessitatibus aspernatur?
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-full bg-gray-100 px-5 py-10 sm:py-20 sm:px-20">
+        <div className="flex flex-col gap-10">
+          <h2 className="text-neutral-800 text-4xl font-bold text-center max-w-lg mx-auto">
+            Ready to get started with Lemon Wares?
+          </h2>
+          <p className="text-center text-lg">
+            Choose the package that suits you
+          </p>
+          <div className="flex items-center justify-center gap-6">
+            <p className="text-black font-semibold text-lg">Monthly</p>
+            <div className="py-2 px-2 bg-orange-500 rounded-full">
+              <input
+                className="mr-2 mt-[0.3rem] h-3.5 w-12 appearance-none rounded-[0.4375rem] bg-transparent before:pointer-events-none before:absolute before:h-3.5 before:w-6 before:rounded-full before:bg-transparent before:content-[''] after:absolute after:z-[2] after:-mt-[0.2875rem] after:h-6 after:w-6 after:rounded-full after:border-none after:bg-neutral-100 after:transition-[background-color_0.2s,transform_0.2s] after:content-[''] checked:bg-transparent checked:after:absolute checked:after:z-[2] checked:after:-mt-[4.5px] checked:after:ml-[2.0625rem] checked:after:h-6 checked:after:w-6 checked:after:rounded-full checked:after:border-none checked:after:bg-neutral-100 checked:after:transition-[background-color_0.2s,transform_0.2s] checked:after:content-[''] hover:cursor-pointer focus:outline-none focus:ring-0 focus:before:scale-100 focus:before:opacity-[0.12]  focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-6 focus:after:w-6 focus:after:rounded-full focus:after:content-[''] checked:focus:before:ml-[2.0625rem] checked:focus:before:scale-100 checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s]"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchChecked"
+              />
+            </div>
+            <p className="text-black font-semibold text-lg">
+              Yearly{" "}
+              <span className="text-[10px] px-2 py-1 bg-yellow-200 rounded-full ml-2">
+                20% discount
+              </span>
+            </p>
+          </div>
+          <div className="grid grid-cols-2 items-center justify-center sm:max-w-xl mx-auto py-5">
+            <div className="text-center px-24 font-bold border-b-2 border-orange-500">
+              Basic
+            </div>
+            <div className="text-center px-24 font-bold border-b-2 border-gray-300">
+              Premium
+            </div>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-center mx-auto lg:max-w-6xl">
+            <Subscription />
+            <Subscription />
+            <Subscription />
           </div>
         </div>
       </div>
