@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className="my-20"></div>
       <Component {...pageProps} />
       <Footer />
-      <div className="relative">
+      {/*  <div className="relative">
         <div className="fixed bottom-0 right-0 p-5 transform transition hover:-translate-y-2">
           <Link
             href="https://wa.me/message/7N2ID7LCRUUNM1"
@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
             />
           </Link>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
